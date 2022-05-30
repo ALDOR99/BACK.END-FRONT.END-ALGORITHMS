@@ -1,0 +1,20 @@
+#container {
+
+    width: 1140px;
+    
+}
+
+#blog-post-container {
+    width: 75%;
+    
+    float: left;
+}
+
+#other-posts {
+    
+    float: left;
+}
+
+#author-box {
+    border: 1px solid red;
+}

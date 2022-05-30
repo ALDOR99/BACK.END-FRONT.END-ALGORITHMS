@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+  input:enabled {
+    background: #ffff00;
+  }
+
+  input:disabled {
+    background: #dddddd;
+  }
+  option:disabled {
+    background: red;
+  }
+</style>
+</head>
+<body>
+
+<form action="">
+  First name: <input type="text" value="Mickey"><br>
+  Last name: <input type="text" value="Mouse"><br>
+  Country: <input type="text" value="Disneyland" disabled><br>
+  Password: <input type="password" name="password" value="psw" disabled><br>
+  E-mail: <input type="email" value="john@doe.com" name="usremail">
+  
+  <br><br><br>
+
+  <select>
+    <option value="volvo">Volvo</option>
+    <option value="saab" disabled>Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi" disabled>Audi</option>
+    <option value="bmw">BMW</option>
+  </select>
+
+</form>
+
+</body>
+</html>

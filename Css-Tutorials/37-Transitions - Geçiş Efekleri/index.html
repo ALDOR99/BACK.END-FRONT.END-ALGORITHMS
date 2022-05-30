@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .card {
+            width: 150px;
+            height: 150px;
+            background: blue;
+            -webkit-transition: width 2s,height 2s,background 1s;
+            -moz-transition: width 2s,height 2s,background 1s;
+            transition: width 2s,height 2s,background 1s;
+            /*transition-delay: 1s;*/
+            margin-bottom: 10px;
+        }
+        .card:hover{
+            width: 250px;
+            /*background: brown;*/
+            
+        }
+        #card-1 {
+            transition-timing-function:ease;
+        }
+        #card-2 {
+            transition-timing-function:linear;
+
+        }
+        #card-3 {
+            transition-timing-function:ease-in;
+
+        }
+        #card-4 {
+            transition-timing-function:ease-out;
+
+        }
+        #card-5 {
+            transition-timing-function:ease-in-out;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card-1" class="card"></div>
+    <div id="card-2" class="card"></div>
+    <div id="card-3" class="card"></div>
+    <div id="card-4" class="card"></div>
+    <div id="card-5" class="card"></div>
+
+</body>
+</html>

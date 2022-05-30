@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: tomato;
+            transition: width 2s;
+            transition-timing-function:cubic-bezier(0.1,0.7,1.0,0.1);
+        }
+        div:hover {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>The cubic-bezier() Function</h1>
+
+    <p>Hover over the div element below, to see the transition effect.</p>
+    
+    <div></div>
+    
+    <p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>

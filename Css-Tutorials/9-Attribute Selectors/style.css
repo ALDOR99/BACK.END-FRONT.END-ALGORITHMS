@@ -1,0 +1,49 @@
+p[title]{
+    border: 1px solid gray;
+    padding: 20px;
+    
+}
+
+p[title = "third paragraph"]{
+    background-color: gold; 
+    border: 1px dashed red;
+}
+
+p[title ~="forth"]{
+    
+    background-color: brown
+}
+
+a[href^=https]{
+    color: coral
+}
+
+input[type="text"]{
+    display: block;
+    width: 400px;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
