@@ -1,0 +1,2 @@
+Yönetim Paneli Kullanıcı Adı : extraegitim
+Yönetim Paneli Kullanıcı Şifresi : 12345678
